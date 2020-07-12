@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&display=swap');
 
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -68,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: justify;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
 }
 
 #about{
@@ -103,15 +106,10 @@ h1, h2, h3, h4, h5, h6 {
 #contact{
     background-color: black;
     background-position: center;
+    font: white;
 }
 
-.row {
-    padding-left: 12%;
-}
 
-a {
-    padding-left: 12%;
-}
 
 
 
@@ -156,23 +154,47 @@ body{
     margin-left: 1%;
 }
 
+.logo-footer{
+    max-width: 80%;
+   
+}
+
 
 /* Thumbnail 3 houses under the main picture */
+
+.card-deck{
+    padding: 5% 5% 5% 5%;
+}
+
 
 .justify-content-center{
     justify-content: center;
     margin-top: 30px;
 }
 
+/* gallery */
 
 
-.col-md-9 mb-md-0 mb-5{
-  width: 70px;
-  height: 300px;
-  border: 1px solid #c3c3c3;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+
+/* ---------------------Contact form ----------------*/
+#contact{
+    display: table;
+    width: 100%;
+    
+}
+.my-contact-center{
+  
+  padding: 2% 2% 2% 20%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.fa-map-maker,
+.span-footer,
+.logo-footer{
+   padding-top: 2%;
 }
 
 /* over footer banner*/
@@ -183,7 +205,7 @@ float: none !important;
 }
 
 
-
+/* -----------------------footer-------------------*/
 
 .footer {
   background-color: #414141;
@@ -193,7 +215,7 @@ float: none !important;
   font-weight: bold;
   font-size: 16px;
   padding: 50px;
-  margin-top: 50px;
+  
 }
 
 .footer .footer-left,
@@ -206,10 +228,7 @@ float: none !important;
 
 /* footer left*/
 
-.footer .footer-left {
-  width: 33%;
-  padding-right: 15px;
-}
+
 
 .footer .about {
   line-height: 20px;
@@ -293,9 +312,7 @@ float: none !important;
 
 /* footer right*/
 
-.footer .footer-right {
-  width: 35%;
-}
+
 
 .footer h2 {
   color: #ffffff;
