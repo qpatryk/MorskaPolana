@@ -252,6 +252,7 @@ float: none !important;
 
 .footer .icons a {
   display: inline-block;
+  justify-content: center;
   width: 35px;
   height: 35px;
   cursor: pointer;
