@@ -209,6 +209,10 @@ body{
 
 /* gallery */
 
+.picture{
+    width: 33%;
+}
+
 
 
 /* ---------------------Contact form ----------------*/
