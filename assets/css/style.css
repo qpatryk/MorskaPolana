@@ -93,14 +93,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info-sections__info {
-    height: 600px;
+    height: 900px;
     position: relative;
     background-size: 100%;
 }
 
 .info-sections__info__inner-content {
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     background-color: rgba(241, 109, 107, .75);
     color: #fff;
@@ -115,23 +115,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about{
-    background-image: url(../image/33_resize_4x3.jpg);
+    background-image: url(../image/15_resize_4x3.jpg);
     background-position: center;
+    background-size: 100%100%;
 }
 
 #for-who{
-    background-image: url(../image/IMG_6164.jpg);
+    background-image: url(../image/beach.jpg);
     background-position: center;
+    background-size: 100%100%;
 }
 
 #what-can{
     background-image: url(../image/IMG_6164.jpg);
     background-position: center;
+    background-size: 100%100%;
 }
 
 #location{
-    background-image: url(../image/IMG_6164.jpg);
+    background-image: url(../image/lokalizacja_respov2.jpg);
     background-position: center;
+    background-size: 100%100%;
 }
 
 #gallery{
@@ -140,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ebebeb
 }
 #pricing{
-    background-color: rgb(192, 113, 113);
+    background-color:  rgba(241, 109, 107, .75);
     background-position: center;
 }
 
