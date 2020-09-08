@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about{
-    background-image: url(../image/15_resize_4x3.jpg);
+    background-image: url(../image/5.jpg);
     background-position: center;
     background-size: 100%100%;
 }
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #gallery{
-    background-color: black;
+    background-color: #414141;
     background-position: center;
     color: #ebebeb
 }
@@ -179,11 +179,11 @@ body{
 }
 
 .nav-link:hover{
-    border-bottom: 1px solid #f7f4f4;
+    border-bottom: 1px solid #fff;
 }
 
 .nav-link{
-    border-bottom: 1px solid #e71818;
+    border-bottom: 4px solid rgba(241, 109, 107, .75);
 }
 
 
@@ -222,6 +222,7 @@ body{
 
 * {
   box-sizing: border-box;
+  
 }
 
 /* Create three columns of equal width */
@@ -248,7 +249,7 @@ body{
 
 /* Pricing header */
 .price .header {
-  background-color: #111;
+  background-color: #414141;
   color: white;
   font-size: 25px;
 }
